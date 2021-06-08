@@ -1,4 +1,4 @@
-export default (users=[], action)=>{
+const usersReducer = (users=[], action)=>{
 
     switch (action.type) {
 
@@ -9,3 +9,5 @@ export default (users=[], action)=>{
     }
 
 };
+
+export default usersReducer;

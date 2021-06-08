@@ -1,5 +1,4 @@
-
-export  default (posts=[],action)=>{
+const postsReducer = (posts=[],action)=>{
 
     switch (action.type) {
         case 'GET_POSTS':
@@ -9,3 +8,5 @@ export  default (posts=[],action)=>{
     }
 
 };
+
+export  default postsReducer;

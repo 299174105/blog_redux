@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/helper-regex": "^7.10.5",
     "axios": "^0.21.1",
     "lodash": "^4.17.21",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-redux": "^6.0.1",
-    "react-scripts": "2.1.8",
-    "redux": "^4.0.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-redux": "^7.2.4",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.0",
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
